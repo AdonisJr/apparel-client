@@ -38,3 +38,6 @@ img{
 .customize:hover{
     background-color: rgb(201, 150, 56);
 }
+span{
+    font-weight: bold;
+}

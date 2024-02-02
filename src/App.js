@@ -10,7 +10,6 @@ function App() {
     try {
       const response = await axios.get("https://api.prolook.com/api/v1-0/materials/categoryByID/2");
       setProducts(response.data.materials);
-      console.log(response.data.materials)
     } catch (error) {
       console.error(error);
     }
@@ -18,7 +17,7 @@ function App() {
 
   useEffect(()=>{
     getApparel();
-  },[])
+  },[getApparel])
   return (
     <div className="main">
        <Product products={products} />
