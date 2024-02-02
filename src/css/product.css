@@ -1,0 +1,40 @@
+.products{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+.details{
+    width: auto;
+    background-color: white;
+    border-radius: 10   px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+img{
+    width: 300px;
+}
+.product_name{
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.customize{
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 70%;
+    background-color: rgb(224, 171, 71);
+    outline: none;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    animation-duration: 20s;
+}
+.customize:hover{
+    background-color: rgb(201, 150, 56);
+}
